@@ -18,6 +18,10 @@ class Timer extends Component {
       this.props.updateInterval * 1000
     );
   }
+  
+  componentDidUpdate(){
+    
+  }
 
   componentWillUnmount() {
     clearInterval(this.interval);
